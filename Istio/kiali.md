@@ -1,5 +1,11 @@
 # Istio 🎛️
 ```bash
+# Install CRDS 
+helm install istio-base istio/base -n istio-system 
+
+# Install control plane
+helm install istiod istio/istiod -n istio-system
+
 kubectl label namespace nginx istio-injection=enabled --overwrite
 
 kubectl get ns -L istio-injection 

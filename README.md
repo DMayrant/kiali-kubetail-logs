@@ -1,6 +1,5 @@
-# Kiali and Kubetail 📊
-
-Kiali is a service to help engineers visualize service communication and kubetail simplifies troubleshooting allow teams to visualize and follow workload logs all at once 
+# Kong Ingress Controller 🦍
+Kong is a open-source Ingress Controller, that offers API management capabilities. An Ingress controller allows layer 7 capabilities to route HTTPS traffic control to your internal workload, SSL termination and give services externally reachable urls.
 
 # Update kubeconfig ☁️
 ```bash

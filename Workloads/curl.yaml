@@ -6,6 +6,7 @@ metadata:
   name: curl
   namespace: nginx
 spec:
+  automountServiceAccountToken: false
   containers:
   - image: curlimages/curl:7.83.0
     name: curl
